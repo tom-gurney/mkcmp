@@ -1,11 +1,14 @@
 {
-  "name": "@giantpeach-tom/mkcmp",
+  "name": "@giantpeach/mkcmp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
   "author": "Tom <tom@giantpeach.agency>",
   "license": "ISC",
+  "bin": {
+    "mkcmp": "./index.js"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
