@@ -6,7 +6,9 @@
   "keywords": [],
   "author": "Tom <tom@giantpeach.agency>",
   "license": "ISC",
-  "bin": "./index.js",
+  "bin": {
+    "mkcmp": "./index.js"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
